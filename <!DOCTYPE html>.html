@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Exercise</title>
+</head>
+<body>
+
+    <h1 id="demo"></h1>
+
+    <h2>Student Information</h2>
+    <p id="result"></p>
+
+    <script>
+        // Display welcome message
+        document.getElementById("demo").innerHTML = "Welcome to JavaScript";
+
+        // Variables
+        let myName = "Farzona";
+        let myAge = 20;
+        let myUniversity = "Albukhary International University";
+        let isRegistered = true;
+        let studentAddress = null;
+
+        // Display information on webpage
+        document.getElementById("result").innerHTML =
+            "Name: " + myName + "<br>" +
+            "Age: " + myAge + "<br>" +
+            "University: " + myUniversity + "<br>" +
+            "Registered: " + isRegistered + "<br>" +
+            "Address: " + studentAddress;
+
+        // Console output
+        console.log("Student Information:");
+        console.log(myName);
+        console.log(myAge);
+        console.log(myUniversity);
+        console.log(isRegistered);
+        console.log(studentAddress);
+
+        // Data types
+        console.log("Data Types:");
+        console.log(typeof myName);
+        console.log(typeof myAge);
+        console.log(typeof myUniversity);
+        console.log(typeof isRegistered);
+        console.log(typeof studentAddress);
+    </script>
+
+</body>
+</html>
